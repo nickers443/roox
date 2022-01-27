@@ -1,0 +1,52 @@
+button {
+  display: block;
+  width: 100%;
+  align-items: unset;
+  font-variant-caps: unset;
+  font-style: normal;
+  font-weight: normal;
+  font-variant-ligatures: unset;
+  font-variant-numeric: unset;
+  font-variant-east-asian: unset;
+  font-stretch: unset;
+  letter-spacing: unset;
+  word-spacing: unset;
+  line-height: 1;
+  text-shadow: none;
+  text-align: unset;
+  writing-mode: unset;
+  text-rendering: unset;
+  text-indent: 0;
+  color: inherit;
+  text-decoration: none;
+  text-transform: none;
+  background-color: unset;
+  padding: 0;
+  box-shadow: none;
+  outline: none;
+  margin: 0;
+  border: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.defaulStyle {
+  width: fit-content;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+  &.blue {
+    background-color: #4B51EF;
+  }
+
+  &.green {
+   background-color: #52CF4F;
+  }
+
+  &.gray {
+   background-color: #AFAFAF;
+  }
+}

@@ -1,0 +1,12 @@
+$background-color: #BDBDBD;
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  min-width: 152px;
+  min-height: 100vh;
+  padding: 35px 0 35px 20px;
+  font-size: 12px;
+  line-height: 14px;
+}
